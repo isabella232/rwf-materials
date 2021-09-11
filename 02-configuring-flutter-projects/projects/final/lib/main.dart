@@ -24,33 +24,18 @@ import 'package:wonder_words/routes.dart';
 import 'package:wonder_words/screen_view_observer.dart';
 
 void main() async {
-  runZonedGuarded(
-    () {
-      WidgetsFlutterBinding.ensureInitialized();
-      log.d('Initialized Logger');
-      FlutterError.onError = (details) {
-        log.e(
-          details.exceptionAsString(),
-          details.stack.toString(),
-        );
-      };
-      runApp(
-        const WonderWords(),
-      );
-    },
-    (error, stackTrace) {
-      log.e(
-        error.toString(),
-        stackTrace,
-      );
-    },
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(
+    const WonderWords(),
   );
+  log.i('Info Logger');
+  log.d('Debug Logger');
+  log.e('Error Logger');
+  log.w('Warn Logger');
 }
 
 class WonderWords extends StatefulWidget {
-  const WonderWords({
-    Key? key,
-  }) : super(key: key);
+  const WonderWords({Key? key}) : super(key: key);
 
   @override
   _WonderWordsState createState() => _WonderWordsState();

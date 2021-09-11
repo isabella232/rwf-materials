@@ -2,10 +2,8 @@ import 'package:component_library/component_library.dart';
 import 'package:domain_models/domain_models.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quote_details/src/l10n/quote_details_localizations.dart';
 import 'package:quote_details/src/quote_details_bloc.dart';
 import 'package:quote_repository/quote_repository.dart';
-import 'package:share_plus/share_plus.dart';
 
 typedef QuoteDetailsShareableLinkGenerator = Future<String> Function(
   Quote quote,
@@ -16,14 +14,12 @@ class QuoteDetailsScreen extends StatelessWidget {
     required this.quoteId,
     required this.onAuthenticationError,
     required this.quoteRepository,
-    required this.shareableLinkGenerator,
     Key? key,
   }) : super(key: key);
 
   final int quoteId;
   final VoidCallback onAuthenticationError;
   final QuoteRepository quoteRepository;
-  final QuoteDetailsShareableLinkGenerator shareableLinkGenerator;
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +30,6 @@ class QuoteDetailsScreen extends StatelessWidget {
       ),
       child: QuoteDetailsView(
         onAuthenticationError: onAuthenticationError,
-        shareableLinkGenerator: shareableLinkGenerator,
       ),
     );
   }
@@ -44,12 +39,10 @@ class QuoteDetailsScreen extends StatelessWidget {
 class QuoteDetailsView extends StatelessWidget {
   const QuoteDetailsView({
     required this.onAuthenticationError,
-    required this.shareableLinkGenerator,
     Key? key,
   }) : super(key: key);
 
   final VoidCallback onAuthenticationError;
-  final QuoteDetailsShareableLinkGenerator shareableLinkGenerator;
 
   @override
   Widget build(BuildContext context) {
@@ -114,16 +107,6 @@ class QuoteDetailsView extends StatelessWidget {
                           (quote.isDownvoted ?? false)
                               ? const QuoteDetailsUnvoted()
                               : const QuoteDetailsDownvoted(),
-                        );
-                      },
-                    ),
-                    ShareIconButton(
-                      onTap: () async {
-                        final url = await shareableLinkGenerator(quote);
-                        Share.share(
-                          QuoteDetailsLocalizations.of(context).shareQuoteText(
-                            url,
-                          ),
                         );
                       },
                     ),

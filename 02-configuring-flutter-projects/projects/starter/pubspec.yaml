@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
+  sdk: ">=2.14.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -26,8 +26,6 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   routemaster: ^0.9.5
-  firebase: ^9.0.1
-  firebase_dynamic_links: ^2.0.7
   package_info: ^2.0.2
   key_value_storage:
     path: packages/key_value_storage
@@ -63,6 +61,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^1.0.4
+  # TODO: add flutter launcher icons dev dependency
+
+# TODO: configure flutter icons
 
 
 # For information on the generic Dart part of this file, see the

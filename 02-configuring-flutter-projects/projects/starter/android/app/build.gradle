@@ -28,6 +28,8 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
 
+    // TODO: add product flavors here
+
     compileSdkVersion 30
 
     sourceSets {

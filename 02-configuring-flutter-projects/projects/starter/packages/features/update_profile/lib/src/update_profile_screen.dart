@@ -110,7 +110,6 @@ class _UpdateProfileViewState extends State<UpdateProfileView> {
         child: Scaffold(
           appBar: AppBar(
             systemOverlayStyle: SystemUiOverlayStyle.light,
-            backwardsCompatibility: false,
             title: Text(
               UpdateProfileLocalizations.of(context).appBarTitle,
             ),

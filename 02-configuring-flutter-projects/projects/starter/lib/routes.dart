@@ -1,5 +1,4 @@
 import 'package:domain_models/domain_models.dart';
-import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:flutter/material.dart';
 import 'package:forgot_my_password/forgot_my_password.dart';
 import 'package:profile_menu/profile_menu.dart';
@@ -11,7 +10,6 @@ import 'package:sign_in/sign_in.dart';
 import 'package:sign_up/sign_up.dart';
 import 'package:update_profile/update_profile.dart';
 import 'package:user_repository/user_repository.dart';
-import 'package:wonder_words/dynamic_link.dart';
 import 'package:wonder_words/home_screen.dart';
 
 class Routes extends RouteMap {
@@ -86,32 +84,24 @@ class Routes extends RouteMap {
                   onAuthenticationError: () {
                     navigator.push(_RoutePaths.signInPath);
                   },
-                  shareableLinkGenerator: (quote) => DynamicLink(
-                    path: _RoutePaths.quoteDetailsPath(
-                      quoteId: quote.id,
-                    ),
-                    socialMetaTagParameters: SocialMetaTagParameters(
-                      title: quote.body,
-                      description: quote.author,
-                    ),
-                  ).url,
                 ),
               );
             },
             _RoutePaths.signInPath: (_) => MaterialPage(
-              name: 'sign-in',
+                  name: 'sign-in',
                   fullscreenDialog: true,
-                  child: Builder(builder: (context) {
-                    return SignInScreen(
-                      userRepository: userRepository,
-                      onSignInSuccess: () {
-                        navigator.pop();
-                      },
-                      onSignUpTap: () {
-                        navigator.push(_RoutePaths.signUpPath);
-                      },
-                      onForgotMyPasswordTap: () {
-                        showDialog(
+                  child: Builder(
+                    builder: (context) {
+                      return SignInScreen(
+                        userRepository: userRepository,
+                        onSignInSuccess: () {
+                          navigator.pop();
+                        },
+                        onSignUpTap: () {
+                          navigator.push(_RoutePaths.signUpPath);
+                        },
+                        onForgotMyPasswordTap: () {
+                          showDialog(
                             context: context,
                             builder: (context) {
                               return ForgotMyPasswordDialog(
@@ -123,10 +113,12 @@ class Routes extends RouteMap {
                                   navigator.pop();
                                 },
                               );
-                            },);
-                      },
-                    );
-                  },),
+                            },
+                          );
+                        },
+                      );
+                    },
+                  ),
                 ),
             _RoutePaths.signUpPath: (_) => MaterialPage(
                   name: 'sign-up',

@@ -1,9 +1,6 @@
-import 'dart:async';
-
 import 'package:component_library/component_library.dart';
 import 'package:domain_models/domain_models.dart';
 import 'package:fav_qs_api/fav_qs_api.dart';
-import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -25,12 +22,13 @@ import 'package:wonder_words/screen_view_observer.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
-    WonderWords(),
+    const WonderWords(),
   );
+  //TODO: Call log
 }
 
 class WonderWords extends StatefulWidget {
-  WonderWords() : super();
+  const WonderWords({Key? key}) : super(key: key);
 
   @override
   _WonderWordsState createState() => _WonderWordsState();
@@ -61,37 +59,6 @@ class _WonderWordsState extends State<WonderWords> {
   );
   final _lightTheme = LightWonderThemeData();
   final _darkTheme = DarkWonderThemeData();
-
-  @override
-  void initState() {
-    super.initState();
-    _openInitialDynamicLinkIfAny();
-    _setupDynamicLinksListener();
-  }
-
-  Future<void> _setupDynamicLinksListener() async {
-    FirebaseDynamicLinks.instance.onLink(
-      onSuccess: (
-        PendingDynamicLinkData? dynamicLink,
-      ) async {
-        final Uri? deepLink = dynamicLink?.link;
-
-        if (deepLink != null) {
-          _navigator.push(deepLink.path);
-        }
-      },
-    );
-  }
-
-  Future<void> _openInitialDynamicLinkIfAny() async {
-    final PendingDynamicLinkData? data =
-        await FirebaseDynamicLinks.instance.getInitialLink();
-    final Uri? deepLink = data?.link;
-
-    if (deepLink != null) {
-      _navigator.push(deepLink.path);
-    }
-  }
 
   @override
   Widget build(BuildContext context) {

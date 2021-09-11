@@ -108,7 +108,6 @@ class _SignUpViewState extends State<SignUpView> {
         child: Scaffold(
           appBar: AppBar(
             systemOverlayStyle: SystemUiOverlayStyle.light,
-            backwardsCompatibility: false,
             title: Text(
               SignUpLocalizations.of(context).appBarTitle,
             ),

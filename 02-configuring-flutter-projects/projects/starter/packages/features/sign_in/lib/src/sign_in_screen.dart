@@ -108,7 +108,6 @@ class _SignInViewState extends State<SignInView> {
         child: Scaffold(
           appBar: AppBar(
             systemOverlayStyle: SystemUiOverlayStyle.light,
-            backwardsCompatibility: false,
             title: Text(
               l10n.appBarTitle,
             ),

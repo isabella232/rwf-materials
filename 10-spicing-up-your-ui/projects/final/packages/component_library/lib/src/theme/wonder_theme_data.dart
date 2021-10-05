@@ -6,7 +6,6 @@ const _dividerThemeData = DividerThemeData(
   space: 0,
 );
 
-//TODO: Define ElevatedButtonThemeData
 ElevatedButtonThemeData get buttonThemeData => ElevatedButtonThemeData(
       style: ButtonStyle(
         shape: const StadiumBorder().materialize(),
@@ -58,7 +57,6 @@ abstract class WonderThemeData {
         foregroundColor: fabForegroundColor,
       );
 
-  //TODO: Define input decoration theme
   InputDecorationTheme get inputDecorationTheme => InputDecorationTheme(
         border: OutlineInputBorder(
           borderSide: BorderSide(color: textFieldBorderColor),
@@ -79,9 +77,7 @@ class LightWonderThemeData extends WonderThemeData {
         primarySwatch: Colors.black.toMaterialColor(),
         dividerTheme: _dividerThemeData,
         floatingActionButtonTheme: fabThemeData,
-        //TODO: add button theme data
         elevatedButtonTheme: buttonThemeData,
-        //TODO: add input decoration theme
         inputDecorationTheme: inputDecorationTheme,
       );
 
@@ -130,9 +126,7 @@ class DarkWonderThemeData extends WonderThemeData {
         primarySwatch: Colors.white.toMaterialColor(),
         dividerTheme: _dividerThemeData,
         floatingActionButtonTheme: fabThemeData,
-        //TODO: add button theme data
         elevatedButtonTheme: buttonThemeData,
-        //TODO: add input decoration theme
         inputDecorationTheme: inputDecorationTheme,
       );
 

@@ -27,9 +27,7 @@ class _FavoriteIconButtonState extends State<FavoriteIconButton>
   @override
   void initState() {
     super.initState();
-    //TODO: Define animation controller
     _controller = AnimationController(vsync: this, duration: duration);
-    //TODO: Define scale animation
     _scaleAnimation = TweenSequence<double>(
       [
         TweenSequenceItem<double>(
@@ -45,7 +43,6 @@ class _FavoriteIconButtonState extends State<FavoriteIconButton>
   }
 
   void animate() {
-    //TODO
     if (_controller.isCompleted) {
       _controller.reverse();
     } else {

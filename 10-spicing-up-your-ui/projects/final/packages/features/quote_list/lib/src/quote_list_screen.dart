@@ -130,7 +130,6 @@ class _QuoteListViewState extends State<QuoteListView> {
       child: StyledStatusBar.dark(
         child: SafeArea(
           child: Scaffold(
-            //TODO: Define Floating action button
             floatingActionButton: FloatingActionButton.extended(
               onPressed: () {
                 setState(() {

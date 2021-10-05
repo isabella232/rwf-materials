@@ -24,8 +24,8 @@ class UserRepository {
   final UserLocalStorage _localStorage;
   final UserSecureStorage _secureStorage;
   final BehaviorSubject<User?> _userSubject = BehaviorSubject();
-  //TODO: declare BehaviorSubject
-
+  final BehaviorSubject<DarkModePreference> _darkModePreferenceSubject =
+      BehaviorSubject();
   late final AsyncMemoizer _userTokenNormalizationMemoizer = AsyncMemoizer()
     ..runOnce(
       () async {
@@ -38,6 +38,25 @@ class UserRepository {
         }
       },
     );
+
+  Future<void> upsertDarkModePreference(DarkModePreference preference) async {
+    await _localStorage.upsertDarkModePreference(
+      preference.toCacheModel(),
+    );
+    _darkModePreferenceSubject.add(preference);
+  }
+
+  Stream<DarkModePreference> getDarkModePreference() async* {
+    if (!_darkModePreferenceSubject.hasValue) {
+      final storedPreference = await _localStorage.getDarkModePreference();
+      _darkModePreferenceSubject.add(
+        storedPreference?.toDomainModel() ??
+            DarkModePreference.useSystemSettings,
+      );
+    }
+
+    yield* _darkModePreferenceSubject.stream;
+  }
 
   Future<void> signIn(String email, String password) async {
     try {

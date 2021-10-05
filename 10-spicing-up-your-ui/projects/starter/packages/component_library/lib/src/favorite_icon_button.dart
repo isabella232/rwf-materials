@@ -1,5 +1,4 @@
 import 'package:component_library/component_library.dart';
-import 'package:component_library/src/mixins/animation_mixin.dart';
 import 'package:flutter/material.dart';
 
 class FavoriteIconButton extends StatefulWidget {
@@ -17,12 +16,30 @@ class FavoriteIconButton extends StatefulWidget {
 }
 
 class _FavoriteIconButtonState extends State<FavoriteIconButton>
-    with SingleTickerProviderStateMixin, ScaleAnimationMixin {
+    with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _scaleAnimation;
+
+  double scaleFrom = 1.0, scaleTo = 0.8;
+  double partition = 0.7;
+  Duration duration = kThemeAnimationDuration;
+
+  @override
+  void initState() {
+    super.initState();
+    //TODO: Define animation controller
+    //TODO: Define scale animation
+  }
+
+  void animate() {
+    //TODO
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = ComponentLibraryLocalizations.of(context);
     return ScaleTransition(
-      scale: scaleAnimation,
+      scale: _scaleAnimation,
       child: IconButton(
         onPressed: () {
           widget.onTap?.call();

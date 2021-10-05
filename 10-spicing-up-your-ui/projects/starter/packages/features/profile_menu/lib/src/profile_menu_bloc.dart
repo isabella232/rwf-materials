@@ -35,10 +35,12 @@ class ProfileMenuBloc extends Bloc<ProfileMenuEvent, ProfileMenuState> {
   Stream<ProfileMenuState> mapEventToState(ProfileMenuEvent event) async* {
     final state = this.state;
     if (event is ProfileMenuStarted) {
-      yield* Rx.combineLatest<User?, ProfileMenuLoaded>(
-        List.filled(1, userRepository.getUser()),
-        (users) => ProfileMenuLoaded(
-          username: users.first?.username,
+      yield* Rx.combineLatest2<User?, DarkModePreference, ProfileMenuLoaded>(
+        userRepository.getUser(),
+        userRepository.getDarkModePreference(),
+        (user, darkModePreference) => ProfileMenuLoaded(
+          darkModePreference: darkModePreference,
+          username: user?.username,
         ),
       );
     } else if (event is ProfileMenuSignedOut && state is ProfileMenuLoaded) {
@@ -49,7 +51,9 @@ class ProfileMenuBloc extends Bloc<ProfileMenuEvent, ProfileMenuState> {
       await quoteRepository.clearCache();
     } else if (event is ProfileMenuDarkModePreferenceChanged &&
         state is ProfileMenuLoaded) {
-      //TODO: handle ProfileMenuDarkModePreferenceChanged event
+      await userRepository.upsertDarkModePreference(
+        event.preference,
+      );
     }
   }
 }

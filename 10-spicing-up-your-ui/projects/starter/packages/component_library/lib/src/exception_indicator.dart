@@ -29,7 +29,10 @@ class ExceptionIndicator extends StatelessWidget {
           children: [
             const SizedBox(
               height: 200,
-              child: RiveAnimation.asset('assets/animations/on_off_switch.riv', animations: ['Off'],),
+              child: RiveAnimation.asset(
+                'assets/animations/on_off_switch.riv',
+                animations: ['Off'],
+              ),
             ),
             const SizedBox(
               height: Spacing.medium,

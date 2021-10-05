@@ -130,17 +130,7 @@ class _QuoteListViewState extends State<QuoteListView> {
       child: StyledStatusBar.dark(
         child: SafeArea(
           child: Scaffold(
-            floatingActionButton: FloatingActionButton.extended(
-              onPressed: () {
-                setState(() {
-                  isGridView = !isGridView;
-                });
-              },
-              label: Text(isGridView ? 'List' : 'Grid'),
-              icon: Icon(
-                isGridView ? Icons.list : Icons.grid_on,
-              ),
-            ),
+            //TODO: Define Floating action button
             body: GestureDetector(
               onTap: () => _releaseFocus(context),
               child: RefreshIndicator(

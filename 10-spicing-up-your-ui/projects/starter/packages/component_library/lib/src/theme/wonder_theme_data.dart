@@ -6,11 +6,7 @@ const _dividerThemeData = DividerThemeData(
   space: 0,
 );
 
-ElevatedButtonThemeData get buttonThemeData => ElevatedButtonThemeData(
-      style: ButtonStyle(
-        shape: const StadiumBorder().materialize(),
-      ),
-    );
+//TODO: Define ElevatedButtonThemeData
 
 // If the number of properties get too big, we can start grouping them in
 // classes like Flutter does with TextTheme, ButtonTheme, etc, inside ThemeData.
@@ -45,7 +41,7 @@ abstract class WonderThemeData {
 
   Color get votedButtonColor;
 
-  Color get textFieldorderColor;
+  Color get textFieldBorderColor;
 
   MaterialColor get fabBackgroundColor;
 
@@ -57,18 +53,7 @@ abstract class WonderThemeData {
         foregroundColor: fabForegroundColor,
       );
 
-  InputDecorationTheme get inputDecorationTheme => InputDecorationTheme(
-        border: OutlineInputBorder(
-          borderSide: BorderSide(
-            color: textFieldorderColor,
-          ),
-          borderRadius: BorderRadius.all(
-            Radius.circular(
-              inputDecorationBorderRadius,
-            ),
-          ),
-        ),
-      );
+  //TODO: Define input decoration theme
 
   TextStyle quoteTextStyle = const TextStyle(
     fontFamily: 'Fondamento',
@@ -83,8 +68,8 @@ class LightWonderThemeData extends WonderThemeData {
         primarySwatch: Colors.black.toMaterialColor(),
         dividerTheme: _dividerThemeData,
         floatingActionButtonTheme: fabThemeData,
-        elevatedButtonTheme: buttonThemeData,
-        inputDecorationTheme: inputDecorationTheme,
+        //TODO: add button theme data
+        //TODO: add input decoration theme
       );
 
   @override
@@ -121,7 +106,7 @@ class LightWonderThemeData extends WonderThemeData {
   MaterialColor get fabForegroundColor => Colors.white.toMaterialColor();
 
   @override
-  Color get textFieldorderColor => Colors.black;
+  Color get textFieldBorderColor => Colors.black;
 }
 
 class DarkWonderThemeData extends WonderThemeData {
@@ -132,8 +117,8 @@ class DarkWonderThemeData extends WonderThemeData {
         primarySwatch: Colors.white.toMaterialColor(),
         dividerTheme: _dividerThemeData,
         floatingActionButtonTheme: fabThemeData,
-        elevatedButtonTheme: buttonThemeData,
-        inputDecorationTheme: inputDecorationTheme,
+        //TODO: add button theme data
+        //TODO: add input decotation theme
       );
 
   @override
@@ -170,7 +155,7 @@ class DarkWonderThemeData extends WonderThemeData {
   MaterialColor get fabForegroundColor => Colors.black.toMaterialColor();
 
   @override
-  Color get textFieldorderColor => Colors.white;
+  Color get textFieldBorderColor => Colors.white;
 }
 
 extension on Color {

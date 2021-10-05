@@ -100,32 +100,38 @@ class _WonderWordsState extends State<WonderWords> {
 
   @override
   Widget build(BuildContext context) {
-    return WonderTheme(
-      lightTheme: _lightTheme,
-      darkTheme: _darkTheme,
-      child: MaterialApp.router(
-        theme: _lightTheme.materialThemeData,
-        darkTheme: _darkTheme.materialThemeData,
-        themeMode: ThemeMode.light,
-        debugShowCheckedModeBanner: false,
-        supportedLocales: AppLocalizations.supportedLocales,
-        localizationsDelegates: const [
-          AppLocalizations.delegate,
-          ComponentLibraryLocalizations.delegate,
-          ProfileMenuLocalizations.delegate,
-          QuoteListLocalizations.delegate,
-          QuoteDetailsLocalizations.delegate,
-          SignInLocalizations.delegate,
-          ForgotMyPasswordLocalizations.delegate,
-          SignUpLocalizations.delegate,
-          UpdateProfileLocalizations.delegate,
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
-        ],
-        routerDelegate: _navigator,
-        routeInformationParser: const RoutemasterParser(),
-      ),
+    return StreamBuilder<DarkModePreference>(
+      stream: _userRepository.getDarkModePreference(),
+      builder: (context, snapshot) {
+        final darkModePreference = snapshot.data;
+        return WonderTheme(
+          lightTheme: _lightTheme,
+          darkTheme: _darkTheme,
+          child: MaterialApp.router(
+            theme: _lightTheme.materialThemeData,
+            darkTheme: _darkTheme.materialThemeData,
+            themeMode: darkModePreference?.toThemeMode(),
+            debugShowCheckedModeBanner: false,
+            supportedLocales: AppLocalizations.supportedLocales,
+            localizationsDelegates: const [
+              AppLocalizations.delegate,
+              ComponentLibraryLocalizations.delegate,
+              ProfileMenuLocalizations.delegate,
+              QuoteListLocalizations.delegate,
+              QuoteDetailsLocalizations.delegate,
+              SignInLocalizations.delegate,
+              ForgotMyPasswordLocalizations.delegate,
+              SignUpLocalizations.delegate,
+              UpdateProfileLocalizations.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            routerDelegate: _navigator,
+            routeInformationParser: const RoutemasterParser(),
+          ),
+        );
+      },
     );
   }
 }

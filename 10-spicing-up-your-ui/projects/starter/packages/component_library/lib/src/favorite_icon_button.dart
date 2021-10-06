@@ -17,8 +17,7 @@ class FavoriteIconButton extends StatefulWidget {
 
 class _FavoriteIconButtonState extends State<FavoriteIconButton>
     with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _scaleAnimation;
+  //TODO: Define animation controller and animation
 
   double scaleFrom = 1.0, scaleTo = 0.8;
   double partition = 0.7;
@@ -38,17 +37,14 @@ class _FavoriteIconButtonState extends State<FavoriteIconButton>
   @override
   Widget build(BuildContext context) {
     final l10n = ComponentLibraryLocalizations.of(context);
-    return ScaleTransition(
-      scale: _scaleAnimation,
-      child: IconButton(
-        onPressed: () {
-          widget.onTap?.call();
-          animate();
-        },
-        tooltip: l10n.favoriteIconButtonTooltip,
-        icon: Icon(
-          widget.isFavorite ? Icons.favorite : Icons.favorite_border_outlined,
-        ),
+    return IconButton(
+      onPressed: () {
+        widget.onTap?.call();
+        animate();
+      },
+      tooltip: l10n.favoriteIconButtonTooltip,
+      icon: Icon(
+        widget.isFavorite ? Icons.favorite : Icons.favorite_border_outlined,
       ),
     );
   }

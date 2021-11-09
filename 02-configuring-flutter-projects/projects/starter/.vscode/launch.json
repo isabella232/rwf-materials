@@ -13,7 +13,7 @@
                 "--flavor",
                 "dev",
                 "--dart-define",
-                "fav-qs-app-token=4864f2d5f25d330e0b2873079146d756"
+                "fav-qs-app-token=YOUR_API_KEY"
             ]
         },
         {
@@ -25,7 +25,7 @@
                 "--flavor",
                 "prod",
                 "--dart-define",
-                "fav-qs-app-token=4864f2d5f25d330e0b2873079146d756"
+                "fav-qs-app-token=YOUR_API_KEY"
             ]
         },
         {

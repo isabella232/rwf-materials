@@ -4,10 +4,95 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58e9f2ae-b16a-4aac-83f0-72e5c57aa4f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="58e9f2ae-b16a-4aac-83f0-72e5c57aa4f2" name="Default Changelist" comment="Add workspace">
+      <change afterPath="$PROJECT_DIR$/../final/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../final/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/../final/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/../final/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/component_library/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/component_library/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/component_library/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/component_library/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/domain_models/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/domain_models/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/domain_models/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/domain_models/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/fav_qs_api/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/fav_qs_api/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/fav_qs_api/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/fav_qs_api/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/forgot_my_password/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/forgot_my_password/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/forgot_my_password/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/forgot_my_password/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/forgot_my_password/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/forgot_my_password/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/profile_menu/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/profile_menu/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/profile_menu/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/profile_menu/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/profile_menu/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/profile_menu/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_details/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_details/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_details/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_details/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_details/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_details/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_list/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_list/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_list/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_list/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_list/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/quote_list/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_in/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_in/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_in/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_in/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_in/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_in/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_up/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_up/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_up/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_up/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_up/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/sign_up/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/update_profile/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/update_profile/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/update_profile/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/update_profile/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/update_profile/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/features/update_profile/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/form_fields/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/form_fields/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/form_fields/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/form_fields/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/key_value_storage/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/key_value_storage/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/key_value_storage/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/key_value_storage/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/key_value_storage/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/key_value_storage/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/monitoring/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/monitoring/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/monitoring/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/monitoring/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/monitoring/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/monitoring/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/quote_repository/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/quote_repository/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/quote_repository/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/quote_repository/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/quote_repository/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/quote_repository/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/user_repository/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/user_repository/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/user_repository/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/user_repository/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/user_repository/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/packages/user_repository/.packages" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
     </list>
     <list id="7793dbb4-6eb9-4c71-8cc1-d1a57c37ba33" name="Temppatch" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636029529624</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Limit makefile">
+      <created>1636551946984</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636551946984</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -120,6 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Temppatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Temppatch" />
+    <MESSAGE value="Limit makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Limit makefile" />
   </component>
 </project>

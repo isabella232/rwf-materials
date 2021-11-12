@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58e9f2ae-b16a-4aac-83f0-72e5c57aa4f2" name="Default Changelist" comment="Add workspace">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="7793dbb4-6eb9-4c71-8cc1-d1a57c37ba33" name="Temppatch" comment="" />
@@ -83,8 +83,8 @@
     </configuration>
     <list>
       <item itemvalue="Flutter.dev" />
-      <item itemvalue="Flutter.prod" />
       <item itemvalue="Flutter.main.dart" />
+      <item itemvalue="Flutter.prod" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

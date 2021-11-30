@@ -4,7 +4,222 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de6ccd60-8ac8-4d79-ad09-09af669671e5" name="Default Changelist" comment="" />
+    <list default="true" id="f598186e-beba-4c7b-a6a6-5427279442a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/dev/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/dev/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/prod/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/prod/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/l10n/app_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/l10n/app_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/l10n/app_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/l10n/app_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/assets/opening-quote.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/assets/opening-quote.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/component_library.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/component_library.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/count_indicator_icon_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/count_indicator_icon_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/downvote_icon_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/downvote_icon_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/exception_indicator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/exception_indicator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/favorite_icon_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/favorite_icon_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/l10n/component_library_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/l10n/component_library_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/l10n/component_library_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/l10n/component_library_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/quote_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/quote_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/rounded_choice_chip.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/rounded_choice_chip.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/theme/font_size.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/theme/font_size.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/theme/spacing.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/theme/spacing.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/lib/src/theme/wonder_theme_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/lib/src/theme/wonder_theme_data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/component_library/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/component_library/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/lib/domain_models.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/domain_models/lib/domain_models.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/lib/src/dark_mode_preference.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/domain_models/lib/src/dark_mode_preference.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/lib/src/exceptions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/domain_models/lib/src/exceptions.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/lib/src/quote_list_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/domain_models/lib/src/quote_list_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/lib/src/tag.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/domain_models/lib/src/tag.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/domain_models/test/common_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/domain_models/test/common_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/lib/fav_qs_api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/fav_qs_api/lib/fav_qs_api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/fav_qs_api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/fav_qs_api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/models/request/sign_in_request_rm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/models/request/sign_in_request_rm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/models/request/user_credentials_rm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/models/request/user_credentials_rm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/models/response/user_rm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/models/response/user_rm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/url_builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/fav_qs_api/lib/src/url_builder.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fav_qs_api/test/common_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/fav_qs_api/test/common_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/forgot_my_password_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/forgot_my_password_dialog.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/forgot_my_password_dialog.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/forgot_my_password_event.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/forgot_my_password_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/forgot_my_password_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/l10n/forgot_my_password_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/l10n/forgot_my_password_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/l10n/forgot_my_password_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/forgot_my_password/lib/src/l10n/forgot_my_password_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/forgot_my_password/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/forgot_my_password/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/forgot_my_password/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/lib/src/l10n/profile_menu_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/profile_menu/lib/src/l10n/profile_menu_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/lib/src/l10n/profile_menu_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/profile_menu/lib/src/l10n/profile_menu_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/lib/src/profile_menu_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/profile_menu/lib/src/profile_menu_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/lib/src/profile_menu_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/profile_menu/lib/src/profile_menu_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/profile_menu/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/profile_menu/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/profile_menu/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/lib/src/l10n/quote_details_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_details/lib/src/l10n/quote_details_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/lib/src/l10n/quote_details_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_details/lib/src/l10n/quote_details_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/lib/src/quote_details_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/lib/src/quote_details_event.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/lib/src/quote_details_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_details/lib/src/quote_details_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/lib/src/quote_details_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_details/lib/src/quote_details_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_details/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_details/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_details/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/lib/src/l10n/quote_list_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_list/lib/src/l10n/quote_list_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/lib/src/l10n/quote_list_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_list/lib/src/l10n/quote_list_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/lib/src/quote_list_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_list/lib/src/quote_list_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/lib/src/quote_list_event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_list/lib/src/quote_list_event.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/lib/src/quote_list_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_list/lib/src/quote_list_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/lib/src/quote_list_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_list/lib/src/quote_list_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_list/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/quote_list/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/quote_list/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/lib/src/l10n/sign_in_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_in/lib/src/l10n/sign_in_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/lib/src/l10n/sign_in_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_in/lib/src/l10n/sign_in_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/lib/src/sign_in_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/lib/src/sign_in_event.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/lib/src/sign_in_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_in/lib/src/sign_in_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/lib/src/sign_in_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_in/lib/src/sign_in_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_in/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_in/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_in/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/lib/src/l10n/sign_up_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_up/lib/src/l10n/sign_up_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/lib/src/l10n/sign_up_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_up/lib/src/l10n/sign_up_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/lib/src/sign_up_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/lib/src/sign_up_event.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/lib/src/sign_up_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_up/lib/src/sign_up_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/lib/src/sign_up_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_up/lib/src/sign_up_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_up/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/sign_up/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/sign_up/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/lib/src/l10n/messages_en.arb" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/update_profile/lib/src/l10n/messages_en.arb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/lib/src/l10n/update_profile_localizations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/update_profile/lib/src/l10n/update_profile_localizations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/lib/src/l10n/update_profile_localizations_en.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/update_profile/lib/src/l10n/update_profile_localizations_en.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/lib/src/update_profile_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/lib/src/update_profile_event.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/lib/src/update_profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/update_profile/lib/src/update_profile_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/lib/src/update_profile_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/update_profile/lib/src/update_profile_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/update_profile/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/features/update_profile/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/features/update_profile/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/lib/form_fields.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/form_fields/lib/form_fields.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/lib/src/email.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/form_fields/lib/src/email.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/lib/src/optional_password_confirmation.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/form_fields/lib/src/optional_password_confirmation.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/lib/src/username.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/form_fields/lib/src/username.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/form_fields/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/form_fields/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/form_fields/test/common_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/form_fields/test/common_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/lib/key_value_storage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/key_value_storage/lib/key_value_storage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/lib/src/key_value_storage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/key_value_storage/lib/src/key_value_storage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/lib/src/models/user_cm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/key_value_storage/lib/src/models/user_cm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/key_value_storage/test/common_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/key_value_storage/test/common_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/monitoring/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/monitoring/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/monitoring/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/monitoring/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/monitoring/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/monitoring/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/monitoring/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/monitoring/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/monitoring/test/common_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/monitoring/test/common_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/lib/src/mappers/cache_to_domain.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/quote_repository/lib/src/mappers/cache_to_domain.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/lib/src/mappers/remote_to_domain.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/quote_repository/lib/src/mappers/remote_to_domain.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/lib/src/quote_local_storage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/quote_repository/lib/src/quote_local_storage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/lib/src/quote_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/quote_repository/lib/src/quote_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/quote_repository/test/common_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/quote_repository/test/common_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/lib/src/mappers/cache_to_domain.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/user_repository/lib/src/mappers/cache_to_domain.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/lib/src/user_local_storage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/user_repository/lib/src/user_local_storage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/lib/src/user_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/user_repository/lib/src/user_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/lib/user_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/user_repository/lib/user_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/user_repository/test/common_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/user_repository/test/common_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starter/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +229,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="20oJrmgaw1QPnbX69kNpXeu7ky2" />
+  <component name="ProjectId" id="21cnxjequ5OZhsSVCN1V51pUzgh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,47 +238,46 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../AndroidSDK" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+  <component name="RunManager" selected="Flutter.prod">
+    <configuration name="dev" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="additionalArgs" value="--dart-define=fav-qs-app-token=YOUR_API_KEY" />
+      <option name="buildFlavor" value="dev" />
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="additionalArgs" value="--dart-define=fav-qs-app-token=YOUR_API_KEY" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prod" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="additionalArgs" value="--dart-define=fav-qs-app-token=YOUR_API_KEY" />
+      <option name="buildFlavor" value="prod" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flutter.main.dart" />
+      <item itemvalue="Flutter.dev" />
+      <item itemvalue="Flutter.prod" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de6ccd60-8ac8-4d79-ad09-09af669671e5" name="Default Changelist" comment="" />
-      <created>1636705207661</created>
+      <changelist id="f598186e-beba-4c7b-a6a6-5427279442a9" name="Default Changelist" comment="" />
+      <created>1638249493629</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1636705207661</updated>
+      <updated>1638249493629</updated>
     </task>
-    <task id="LOCAL-00001" summary="Add all .idea files">
-      <created>1636705263335</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1636705263335</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add .final iml file">
-      <created>1636705313646</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1636705313646</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add all .idea files" />
-    <MESSAGE value="Add .final iml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .final iml file" />
   </component>
 </project>

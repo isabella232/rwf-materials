@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58e9f2ae-b16a-4aac-83f0-72e5c57aa4f2" name="Default Changelist" comment="Add workspace">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -64,7 +65,7 @@
       <recent name="$PROJECT_DIR$/android/app/src/dev" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.dev">
+  <component name="RunManager" selected="Flutter.main.dart">
     <configuration name="dev" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="additionalArgs" value="--dart-define=fav-qs-app-token=YOUR_API_KEY" />
       <option name="buildFlavor" value="dev" />
@@ -72,6 +73,7 @@
       <method v="2" />
     </configuration>
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="additionalArgs" value="--dart-define=fav-qs-app-token=YOUR_API_KEY" />
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>

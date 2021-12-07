@@ -1,0 +1,4 @@
+flutter_icons:
+  android: true
+  # TODO: add iOS configuration
+  image_path: "assets/logos/logo-dev.png"
